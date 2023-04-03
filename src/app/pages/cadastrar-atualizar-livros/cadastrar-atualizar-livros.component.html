@@ -1,0 +1,41 @@
+<h1 class="display-6">{{ livroId ? 'Editar' : 'Cadastrar' }}</h1>
+<hr />
+
+<div>{{ livroForm.value | json }}</div>
+<div class="container-fluid">
+  <form [formGroup]="livroForm" (ngSubmit)="cadastrar()">
+    <div class="row">
+      <div class="col-12">
+        <div class="mb-3">
+          <label for="titulo" class="form-label">Título</label>
+          <input id="titulo" type="text" class="form-control" formControlName="titulo" />
+        </div>{{ livroId ? 'Editar' : 'Cadastrar' }}
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="valorUnitario" class="form-label">Valor unitário</label>
+          <input id="valorUnitario" type="number" class="form-control" formControlName="valorUnitario" max="10" min="0" />
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="quantidade" class="form-label">Quantidade</label>
+          <input id="quantidade" type="number" class="form-control" formControlName="quantidade" max="10" min="0" />
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="ano" class="form-label">Ano</label>
+          <input id="ano" type="text" class="form-control" formControlName="ano" />
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="mb-3">
+          <label for="status" class="form-label">Status</label>
+          <input id="status" type="text" class="form-control" formControlName="status" />
+        </div>
+      </div>
+    </div>
+    <button type="submit" [disabled]="!livroForm.valid" class="btn btn-dark">{{ livroId ? 'Editar' : 'Cadastrar' }}</button>
+  </form>
+</div>

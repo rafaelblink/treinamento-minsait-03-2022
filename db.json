@@ -1,0 +1,76 @@
+{
+  "livraria": [
+    {
+      "id": 1,
+      "titulo": "Testando alguma coisa",
+      "ano": 2019,
+      "valorUnitario": 10.5,
+      "quantidade": 30,
+      "status": "Normal"
+    },
+    {
+      "id": 2,
+      "titulo": "Life on Mars?",
+      "ano": 2000,
+      "valorUnitario": 10.5,
+      "quantidade": 350,
+      "status": "Saldao"
+    },
+    {
+      "id": 3,
+      "titulo": "The Rains Of Castamere",
+      "ano": 2012,
+      "valorUnitario": 38.5,
+      "quantidade": 70,
+      "status": "Saldao"
+    },
+    {
+      "id": 4,
+      "titulo": "JSON: como usar",
+      "ano": 2019,
+      "valorUnitario": 9.5,
+      "quantidade": 50,
+      "status": "Lancamento"
+    },
+    {
+      "id": 5,
+      "titulo": "Usando chatGPT para ganhar dinheiro",
+      "ano": 2023,
+      "valorUnitario": 40.5,
+      "quantidade": 300,
+      "status": "Lancamento"
+    },
+    {
+      "titulo": "Tituloz",
+      "ano": 2000,
+      "quantidade": 9,
+      "valorUnitario": 3,
+      "status": "Normal",
+      "id": 6
+    },
+    {
+      "titulo": "1123",
+      "ano": 2000,
+      "quantidade": 2,
+      "valorUnitario": 3,
+      "status": "Normal",
+      "id": 7
+    },
+    {
+      "titulo": "Uhull",
+      "ano": 2000,
+      "quantidade": 10,
+      "valorUnitario": 10,
+      "status": "Normal",
+      "id": 8
+    },
+    {
+      "titulo": "54534534",
+      "ano": 2000,
+      "quantidade": 2,
+      "valorUnitario": 2,
+      "status": "Normal",
+      "id": 9
+    }
+  ]
+}
